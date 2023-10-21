@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'atletico';
+    src: url('../fontes/goldingots.ttf') format('opentype');
+    font-weight:normal;
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   box-sizing: border-box;
+    
+
+    
+}
+
+:root{
+    --fonte-atletico: 'atletico';
+}
+
+nav > a{
+    
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+   padding: 20px ;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    
+
+    
+    
+    
+}
+
+
+   
+
+nav.ca{
+    
+    
+    padding: 30px 30px; 
+   
+    
+    
+}
+
+nav > a:hover{
+background-color: white;
+color: black;
+zoom: 120%;
+transition: 0.5s;
+}
+
+nav{
+    
+    position: relative;
+    top: 50%;
+    left: 80%;
+    height: 80vh;
+    
+}
+
+.d{
+
+    position: relative;
+}
+
+
+
+header{
+    
+    
+    height: 180px;
+    display: flex;
+ background-image:linear-gradient(to bottom, black, rgba(0, 0, 0, 0.637));
+   color: white;
+   margin:auto;
+   min-width: 500px;
+   max-width: 1300px;
+   overflow: hidden;
+     
+   
+   
+   
+}
+
+header h1{
+    font-family: var(--fonte-atletico);
+    font-size:  4em;
+    color: white;
+    position: absolute;
+    
+    right: 100%;
+    left:44% ;
+   padding-top: 20px;
+}
+
+
+.q1{
+    
+font-size: 1.3em;
+text-align: center;
+color: black;
+border: 2px solid black;
+border-radius: 15px;
+width: 300px;
+height: 350px;
+background-image: url("imagens/ronaldinho.jpg");
+
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+}
+
+
+
+.q{
+    display: flex;
+flex-wrap: wrap;
+
+gap:1vw ;
+padding: 20px 130px;
+padding-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.q2{
+
+   
+font-size: 1.3em;
+text-align: center;
+color: white;
+border: 2px solid black;
+border-radius: 15px;
+width: 300px;
+height: 350px;
+background-image: url("imagens/pierre.jpg");
+object-fit: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 240%;
+
+}
+
+
+
+ main div:hover{
+    transform: scale(1.1);
+    border: 5px solid black ;
+    text-decoration: underline;
+}
+
+
+.q3{
+    
+    
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-image: url("imagens/victor_3-transformed.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    
+ 
+}
+
+
+.q4{
+    
+    
+    font-size: 1.3em;
+    text-align: center;
+    color: yellow;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-image: url("imagens/Hulk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    object-fit: cover;
+    overflow: hidden;
+    
+    
+ 
+}
+
+
+.q5{
+    
+    
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-image: url("imagens/tardelli4-transformed.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    object-fit: cover;
+    
+}
+
+.q6{
+    
+
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-image: url("imagens/dada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    
+}
+
+
+.q7{
+
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-image: url("imagens/reinaldo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    object-fit: cover;
+    
+    
+}
+
+.q8{
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-image: url("imagens/silhueta-transformed.jpeg");
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+    background-size: 120%;
+    object-fit: cover;
+}
+
+.q9{
+
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-image: url("imagens/silhueta-transformed.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    object-fit: cover;
+}
+
+h2{
+    margin: auto;
+}
+

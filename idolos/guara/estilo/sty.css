@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    min-width: 400px;
+    max-width: 1300px;
+    
+    
+    
+    
+    
+}
+
+a{
+    text-align: top;
+}
+
+nav > a{
+    color: white;
+    padding: 10px 600px;
+    
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    
+    
+}
+
+nav > a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.h{
+    
+    font-size: max(40px, 3vw);
+    text-align: center;
+    color: yellow;
+    text-shadow:1px 1px black ;
+    position: absolute;
+    right:30% ;
+    top:70%;
+    left:35%;
+    transition: translate(-50%, -50%);
+    text-decoration: underline;
+    
+    
+    
+    
+    
+}
+
+section{
+    background-color: black;
+    overflow: hidden;
+
+}
+
+h2{
+    text-align: center;
+    max-height: 800px;
+    min-height: 500px;
+}
+
+img{
+    position: relative;
+    
+    overflow: hidden;
+    
+    
+    width: 40%;
+    transition: all 0.25s ease-in-out;
+    
+    max-height: 700px;
+    min-height: 300px;
+    
+    left: 32%;
+    
+    
+}
+
+img:hover{
+filter: blur(2px);
+transform: scale(1.1);
+
+
+
+
+}
+
+.h:hover{
+    zoom: 110%;
+    color: rgb(167, 242, 255);
+    
+}
+
+li.r{
+
+
+    color: white;
+
+    background-color:black;
+}
+
+
+header{
+    background-color: white;
+}
+
+
