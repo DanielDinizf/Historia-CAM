@@ -299,5 +299,10 @@ background-size: 240%;
 
 h2{
     margin: auto;
+    
+}
+
+h2 > a{
+    color: rgb(255, 255, 24);
 }
 
